@@ -4,7 +4,6 @@
   https://drive.google.com/file/d/1DznK8FPPANWVz3tk3Ddb0iqP3OIRv4c3/view?usp=share_link
 - 호출 API Sample </br>
 [키워드 검색] localhost:8080/blogs?query=맛집&page=1&sort=accuracy&size=10 </br>
-  param </br>
   - sort: recency(최신순), 기본 값 accuracy </br>
   - page: pageNumber </br>
   - size: pageSize </br>
