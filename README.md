@@ -4,10 +4,10 @@
   https://drive.google.com/file/d/1VCD6mhS3cXC-TyMDxwhXR3TAhkU90otV/view?usp=sharing
 - 호출 API Sample </br>
   [키워드 검색] localhost:8080/blogs?query=맛집&page=1&sort=accuracy&size=10 </br>
-  - keyword : 검색어
-  - sort: recency(최신순), 기본 값 accuracy </br>
-  - page: pageNumber </br>
-  - size: pageSize </br>
+    - keyword : 검색어
+    - sort: recency(최신순), 기본 값 accuracy </br>
+    - page: pageNumber </br>
+    - size: pageSize </br>
   [인기검색어]  localhost:8080/popular </br>
 
 - 외부 라이브러리 사용 </br>
