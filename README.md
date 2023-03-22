@@ -3,7 +3,7 @@
 - jar 파일 위치경로 </br>
   https://drive.google.com/file/d/1DznK8FPPANWVz3tk3Ddb0iqP3OIRv4c3/view?usp=share_link
 - 호출 API Sample </br>
-[키워드 검색] localhost:8080/blogs?query=맛집&page=1 </br>
+[키워드 검색] localhost:8080/blogs?query=맛집&page=1&sort=accuracy&size=10 </br>
 [인기검색어]  localhost:8080/popular
 - 외부 라이브러리 사용 </br>
  com.h2database:h2:1.4.200 => H2 DB연동 </br>
