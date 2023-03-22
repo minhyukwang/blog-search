@@ -7,6 +7,7 @@
   - sort: recency(최신순), 기본 값 accuracy </br>
   - page: pageNumber </br>
   - size: pageSize </br>
+
 [인기검색어]  localhost:8080/popular
 - 외부 라이브러리 사용 </br>
  com.h2database:h2:1.4.200 => H2 DB연동 </br>
