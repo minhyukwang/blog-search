@@ -35,7 +35,9 @@ public class BlogController {
                                         Pageable pageable) throws IOException {
         OkHttpClient client = new OkHttpClient();
         // sort recency(최신순), 기본 값 accuracy
-        String sort = !ObjectUtils.isEmpty(pageable.getSort()) ? "recency" : "accuracy";
+        String sort = pageable.getSort().toString();
+        if(!(sort.equals("recency") || sort.equals("accuracy")))
+            sort = "accuracy";
         // page 결과 페이지 번호, 1~15 사이의 값
         int page = !ObjectUtils.isEmpty(pageable.getPageNumber()) ? pageable.getPageNumber() : 1;
         // size 한 페이지에 보여질 문서 수, 1~30 사이의 값, 기본 값 15
