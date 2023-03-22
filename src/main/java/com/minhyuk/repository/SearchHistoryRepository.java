@@ -1,6 +1,6 @@
-package com.kakao.kakaoblog.repository;
+package com.minhyuk.repository;
 
-import com.kakao.kakaoblog.entity.SearchHistory;
+import com.minhyuk.entity.SearchHistory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

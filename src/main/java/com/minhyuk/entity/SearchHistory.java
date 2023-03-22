@@ -1,4 +1,4 @@
-package com.kakao.kakaoblog.entity;
+package com.minhyuk.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,7 +1,7 @@
-package com.kakao.kakaoblog.service;
+package com.minhyuk.service;
 
-import com.kakao.kakaoblog.entity.SearchHistory;
-import com.kakao.kakaoblog.repository.SearchHistoryRepository;
+import com.minhyuk.entity.SearchHistory;
+import com.minhyuk.repository.SearchHistoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;

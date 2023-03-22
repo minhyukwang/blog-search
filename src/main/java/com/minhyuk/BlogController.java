@@ -1,10 +1,10 @@
-package com.kakao.kakaoblog;
+package com.minhyuk;
 
 import com.google.gson.Gson;
-import com.kakao.kakaoblog.dto.BlogDto;
-import com.kakao.kakaoblog.dto.PageResult;
-import com.kakao.kakaoblog.entity.SearchHistory;
-import com.kakao.kakaoblog.service.SearchHistoryService;
+import com.minhyuk.dto.BlogDto;
+import com.minhyuk.dto.PageResult;
+import com.minhyuk.entity.SearchHistory;
+import com.minhyuk.service.SearchHistoryService;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -23,7 +23,7 @@ import java.util.Comparator;
 import java.util.List;
 
 @RestController
-public class KakaoBlogController {
+public class BlogController {
 
     @Value("${kakao.blog.api.key}")
     private String apiKey;

@@ -1,13 +1,13 @@
-package com.kakao.kakaoblog;
+package com.minhyuk;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KakaoBlogApplication {
+public class BlogApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KakaoBlogApplication.class, args);
+        SpringApplication.run(BlogApplication.class, args);
     }
 
 }

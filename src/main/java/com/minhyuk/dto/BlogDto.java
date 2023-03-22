@@ -1,4 +1,4 @@
-package com.kakao.kakaoblog.dto;
+package com.minhyuk.dto;
 
 import lombok.Builder;
 import lombok.Getter;
